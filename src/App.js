@@ -1,11 +1,10 @@
-import PostList from './components/PostList';
-import { PostProvider } from './contexts/PostProvider';
+import Register from './Register';
 
 function App() {
   return (
-    <PostProvider>
-      <PostList />
-    </PostProvider>
+    <div className="App">
+      <Register />
+    </div>
   );
 }
 
